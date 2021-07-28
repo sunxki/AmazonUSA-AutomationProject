@@ -22,11 +22,12 @@ This is the Automation suite for Amazon.com
 The suite is organized under Page Object Model (POM) , it contains the following directory, please below find a brief description of each one. 
 
 ### pageObject 
-It contains a class per each page involved on the required test cases, on this clases, locators and methods are stored 
+It contains a class per each page involved on the required test cases, , on this clases, constructors, locators and methods are declared and encapsulated  
 ### report 
 This directory will be used to store the HTML repors once the pytest commands has finished 
 ### testData
-It contains clases 
+It contains clases where the data use on eac  
 ### test 
-It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well as data loader 
+It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well as data loader to bring data from testData classes 
 ### utilities 
+
