@@ -29,7 +29,7 @@ This directory will be used to store the HTML repors once the pytest commands ha
 It contains classes where the data use on each page 
 ### **test**
 - testCases: It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well   as data loader to bring data from testData classes. 
-- conftest: It contains the setup up method linked to all the testcases clases using fixture 
+- conftest: It contains the setup up method linked to all the testcases clases using fixture to get the URL. 
 ### **utilities**
 It contains Base Class where all the recycled method are declared such as, API Call method,implicit waits, text generator and it was enherinted by all the test cases.
 Additionally drivers for **Chrome** and **Firefox** are loaded here, required to run the scripts 
