@@ -34,7 +34,7 @@ It contains classes where the data use on each page is stored
 ### **test**
 - **testCases:** It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well   as data loader to bring data from testData classes.
 
-       File:test_first_test_case       	 	Go to Amazon.com
+       File:test_first_test_case       	 Go to Amazon.com
 						Search for Samsung Galaxy Note 20
 						Verify Item is displayed on the screen and locate the first one, then store the price
 						Click on the First Result
