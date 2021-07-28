@@ -7,7 +7,7 @@ This is the Automation suite for Amazon.com
   3. cd to the directory where the repository was cloned 
   4. input "py.test" command on the console
   5. The Webdriver will start executing the script 
-  6. Once it has finished, navigate to /reports on your clone directory and locate the new report for this run generated 
+  6. Once it has finished, navigate to /reports on your cloned directory and locate the new report for this run generated 
 
 ## This automation suite was created  using the following tools:
 
@@ -28,6 +28,9 @@ This directory will be used to store the HTML repors once the pytest commands ha
 ### testData
 It contains clases where the data use on eac  
 ### test 
-It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well as data loader to bring data from testData classes 
+It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well as data loader to bring data from testData classes. 
+  #### conftest 
+
 ### utilities 
+It contains BaseClass where all the recycled method are declared such as, API Call method,
 
