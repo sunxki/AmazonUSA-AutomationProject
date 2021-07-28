@@ -9,6 +9,10 @@ This is the Automation suite for Amazon.com
   5. The Webdriver will start executing the script 
   6. Once it has finished, navigate to /reports on your cloned directory and locate the new report for this run generated 
 
+##Other CMD customed commands 
+1. py.test -browser_name ()
+2. py.test -environment_name ()
+
 ## This automation suite was created  using the following tools:
 
 - Selenium Webdriver 3.141.0 
@@ -34,3 +38,4 @@ It contains classes where the data use on each page is stored
 It contains Base Class where all the recycled method are declared such as, API Call method,implicit waits, text generator and it was enherinted by all the test cases.
 Additionally drivers for **Chrome** and **Firefox** are loaded here, required to run the scripts 
 
+##
