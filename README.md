@@ -1,7 +1,7 @@
 # AmazonUSA-SDETProject
 This is the Automation suite for Amazon.com 
 
-#How to execute it (On Windows) 
+##How to execute it (On Windows) 
   1. Clone the directory in to your computer 
   2. Open CMD on widnows
   3. cd to the directory where the repository was cloned 
@@ -9,7 +9,7 @@ This is the Automation suite for Amazon.com
   5. The Webdriver will start executing the script 
   6. Once it has finished, navigate to /reports on your clone directory and locate the new report for this run generated 
 
-#This automation suite was created  using the following tools:
+##This automation suite was created  using the following tools:
 
 - Selenium Webdriver 3.141.0 
 - Python 3.9 
@@ -21,12 +21,12 @@ This is the Automation suite for Amazon.com
 
 The suite is organized under Page Object Model (POM) , it contains the following directory, please below find a brief description of each one. 
 
-## pageObject 
+### pageObject 
 It contains a class per each page involved on the required test cases, on this clases, locators and methods are stored 
-## report 
+### report 
 This directory will be used to store the HTML repors once the pytest commands has finished 
-## testData
+### testData
 It contains clases 
-## test 
+### test 
 It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well as data loader 
-## utilities 
+### utilities 
