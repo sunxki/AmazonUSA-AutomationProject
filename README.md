@@ -1,2 +1,3 @@
-# AmazonUSA-Project
+# AmazonUSA-SDETProject
 Automation suite for Amazon.com 
+
