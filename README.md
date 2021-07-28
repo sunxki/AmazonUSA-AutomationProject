@@ -28,8 +28,10 @@ This directory will be used to store the HTML repors once the pytest commands ha
 ### testData
 It contains clases where the data use on eac  
 ### test 
-It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well as data loader to bring data from testData classes. 
-  #### conftest 
+- testCases 
+  It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well   as data loader to bring data from testData classes. 
+- conftest 
+  
 
 ### utilities 
 It contains BaseClass where all the recycled method are declared such as, API Call method,
