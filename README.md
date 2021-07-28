@@ -26,7 +26,7 @@ It contains a class per each page involved on the required test cases, , on this
 ### **report**
 This directory will be used to store the HTML repors once the pytest commands has finished 
 ### **testData**
-It contains classes where the data use on each page 
+It contains classes where the data use on each page is stored
 ### **test**
 - **testCases:** It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well   as data loader to bring data from testData classes. 
 - **conftest:** It contains the setup up method linked to all the testcases clases using fixture to get browser on the URL provided (www.amazon.com). 
