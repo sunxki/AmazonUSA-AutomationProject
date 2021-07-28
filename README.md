@@ -1,5 +1,5 @@
 # AmazonUSA-SDETProject
-Automation suite for Amazon.com 
+This is the Automation suite for Amazon.com 
 
 This automation suite was created  using the following tools:
 
