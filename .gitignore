@@ -1,0 +1,6 @@
+assets*
+.idea
+.pytest_cache
+venv
+
+

@@ -1,7 +1,9 @@
 import requests
 
 
-class CreateAccountData():
+class CreateAccountData:
+
+    """Data provided to the Create Account page class using an API Call extracting the data from the JSON provided"""
 
     headers = {
         'User-Agent': 'Chrome/92.0.4515.107 '}
