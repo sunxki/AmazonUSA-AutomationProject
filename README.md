@@ -9,7 +9,7 @@ This is the Automation suite for Amazon.com
   5. The Webdriver will start executing the script 
   6. Once it has finished, navigate to /reports on your cloned directory and locate the new report for this run generated 
 
-Recording for the execution can be found on here: https://www.screencast.com/t/jH26dYBD 
+Recording for the execution can be found on [here](https://www.screencast.com/t/jH26dYBD) 
 
 ## Other CMD customized commands 
 1. py.test -browser_name (default = **chrome**,   "firefox" available to run the script in geckodriver)
