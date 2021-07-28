@@ -9,7 +9,7 @@ This is the Automation suite for Amazon.com
   5. The Webdriver will start executing the script 
   6. Once it has finished, navigate to /reports on your cloned directory and locate the new report for this run generated 
 
-## Other CMD costumized commands 
+## Other CMD customized commands 
 1. py.test -browser_name (default = **chrome**, firefox available to run the script in geckodriver)
 2. py.test -environment_name (default = **prod**, stg option available to get a different URL )
 
@@ -37,5 +37,3 @@ It contains classes where the data use on each page is stored
 ### **utilities**
 It contains Base Class where all the recycled method are declared such as, API Call method,implicit waits, text generator and it was enherinted by all the test cases.
 Additionally drivers for **Chrome** and **Firefox** are loaded here, required to run the scripts 
-
-##
