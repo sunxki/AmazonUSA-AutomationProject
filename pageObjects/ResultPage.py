@@ -19,13 +19,19 @@ class ResultPage(BaseClass):
     price_fraction = (By.CSS_SELECTOR, "span.a-price-fraction")
 
     def search_validation(self):
+        """Return the info text with search information displayed on the Result page """
         return self.driver.find_element(*ResultPage.result_info_text).text
 
     def find_products_displayed(self):
+        """Return all the web elements where the products for the search are displayed """
         self.verify_elements_present(ResultPage.products_displayed)
         return self.driver.find_elements(*ResultPage.products_displayed)
 
     def select_item_with_price(self):
+        """Select the first product when this one has price displayed if not it return the next one
+            then it takes the price from it
+            and create the instance of the next object from detailpage Class
+        """
         products = self.find_products_displayed()
         for product in products:
             if product.find_element(*ResultPage.item_price_tag).is_displayed:
@@ -36,6 +42,7 @@ class ResultPage(BaseClass):
         return detailpage
 
     def get_price_formatted(self,product):
+        """Store the float price in the instance variable array"""
         whole = float(product.find_element(*ResultPage.price_whole).text)
         fraction = float(product.find_element(*ResultPage.price_fraction).text)/100
         price_formatted = whole + fraction
@@ -43,6 +50,7 @@ class ResultPage(BaseClass):
 
 
     def verify_prices_match(self):
+        """Logic to verify the prices collected on the script match"""
         if len(set(self.price_displayed_validator)) == 1:
             return True
         else:

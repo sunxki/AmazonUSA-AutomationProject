@@ -12,12 +12,14 @@ class HomePage:
         self.driver = driver
 
     def perform_a_search(self,search):
+        """Create the object of the instance from the Resultpage class once the search bar was used"""
         self.driver.find_element(*HomePage.search_Bar).send_keys(search)
         self.driver.find_element(*HomePage.search_button).click()
         resultpage = ResultPage(self.driver)
         return resultpage
 
     def find_helllo_button(self):
+        """Create the object of the instance from the SignInpage class once the related button has been clicked"""
         self.driver.find_element(*HomePage.hello_button).click()
         signpage = SignInPage(self.driver)
         return signpage

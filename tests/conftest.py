@@ -40,12 +40,11 @@ def setup(request):
 @pytest.hookimpl(tryfirst=True)
 def pytest_configure(config):
     """"
-    Generate html report name with detail based on the time it was runned.
+    Generate html report name with detail based on the time it was ran.
     """
     config.option.htmlpath = (
         "reports/" + datetime.now().strftime("%d-%m-%Y %H-%M-%S") + ".html"
     )
-
 
 @pytest.mark.hookwrapper
 def pytest_runtest_makereport(item):

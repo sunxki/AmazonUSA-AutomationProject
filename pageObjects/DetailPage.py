@@ -12,15 +12,17 @@ class DetailPage:
     price_on_box = (By.ID, "price_inside_buybox")
 
     def add_to_cart (self,price_stored):
+        """Create the object of the instance from the PrecartPage class once the related button has been clicked"""
         price_stored.extend(self.get_prices())
         self.driver.find_element(*DetailPage.add_cart_button).click()
         precartpage = PreCartPage(self.driver)
         return precartpage
 
     def get_prices(self):
-        price_1 = float((self.driver.find_element(*DetailPage.price_on_page).text).replace("$", ""))
-        price_2 = float((self.driver.find_element(*DetailPage.price_on_box).text).replace("$", ""))
-        return [price_1, price_2]
+        """Store float prices displayed on the detail page on a list"""
+        price = [float((self.driver.find_element(*DetailPage.price_on_page).text).replace("$", "")),
+                 float((self.driver.find_element(*DetailPage.price_on_box).text).replace("$", ""))]
+        return price
 
 
 
