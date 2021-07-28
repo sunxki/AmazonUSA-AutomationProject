@@ -10,8 +10,8 @@ This is the Automation suite for Amazon.com
   6. Once it has finished, navigate to /reports on your cloned directory and locate the new report for this run generated 
 
 ## Other CMD customized commands 
-1. py.test -browser_name (default = **chrome**,   firefox available to run the script in geckodriver)
-2. py.test -environment_name (default = **prod**,   stg option available to get a different URL )
+1. py.test -browser_name (default = **chrome**,   "firefox" available to run the script in geckodriver)
+2. py.test -environment_name (default = **prod**,   "stg" available to get a different URL for another enviroment (Not provided))
 
 ## This automation suite was created  using the following tools:
 
