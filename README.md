@@ -30,7 +30,7 @@ The suite is organized under Page Object Model (POM) , it contains the following
 ### **pageObject**
 It contains a class per each page involved on the required test cases,on these classes, constructors, locators and methods are declared and encapsulated. 
 ### **report**
-This directory will be used to store the HTML repors once the pytest commands has finished 
+This directory will be used to store the HTML repors once the pytest execution has finished 
 ### **testData**
 It contains classes where the data use on each page is stored
 ### **test**
