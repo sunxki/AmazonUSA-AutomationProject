@@ -25,7 +25,7 @@ Recording for the execution can be found on [here](https://www.screencast.com/t/
 -- [Requests](https://docs.python-requests.org/en/master/): For API call
 --  [pytest-html](https://pytest-html.readthedocs.io/en/latest/index.html#) For reporting 
 
-The suite is organized under Page Object Model (POM) , it contains the following directory, please below find a brief description of each one. 
+The suite is organized under Page Object Model (POM) , it contains the following directories, please below find a brief description of each one. 
 
 ### **pageObject**
 It contains a class per each page involved on the required test cases,on these classes, constructors, locators and methods are declared and encapsulated. 
