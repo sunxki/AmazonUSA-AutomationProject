@@ -34,26 +34,24 @@ It contains classes where the data use on each page is stored
 ### **test**
 - **testCases:** It contain classes for the test cases required, it will enhirent all the method from pageObject clases to performed the steps, assertion are included on this clases, as well   as data loader to bring data from testData classes.
 
-       File:test_first_test_case        Go to Amazon.com
-					Search for Samsung Galaxy Note 20
-					Verify Item is displayed on the screen and locate the first one, then store the price
-					Click on the First Result
-					Once in the details page compare this price vs the above one (first stored price)
-					Click on Add to Cart.
-					Go to Cart and verify again the price of the phone
-					Delete Item
+       File:test_first_test_case       	 	Go to Amazon.com
+						Search for Samsung Galaxy Note 20
+						Verify Item is displayed on the screen and locate the first one, then store the price
+						Click on the First Result
+						Once in the details page compare this price vs the above one (first stored price)
+						Click on Add to Cart.
+						Go to Cart and verify again the price of the phone
+						Delete Item
 									     
-	   File:test_second_test_case   Go to Amazon main page
-					Locate at the upper right corner the button: Hello, Sign In Account & lists and click on it
-					Click on "New customer? Start right here"
-					Fill Email field with the data from the API response [Firstname.Lastname@fake.com](mailto:Firstname.Lastname@fake.com)
-					Locate the search bar and Search for Echo
-					Locate "Echo support" options and click on it
-					Following elements should be displayed: Getting Started, Wi-Fi and Bluetooth, Device Software and Hardware, TroubleShooting		
+	   File:test_second_test_case   	Go to Amazon main page
+						Locate at the upper right corner the button: Hello, Sign In Account & lists and click on it
+						Click on "New customer? Start right here"
+						Fill Email field with the data from the API response [Firstname.Lastname@fake.com](mailto:Firstname.Lastname@fake.com)
+						Locate the search bar and Search for Echo
+						Locate "Echo support" options and click on it
+						Following elements should be displayed: Getting Started, Wi-Fi and Bluetooth, Device Software and Hardware, TroubleShooting		
 
 - **conftest:** It contains the setup up method linked to all the testcases clases using fixture to get browser on the URL provided (www.amazon.com). 
-
-
 
 
 ### **utilities**
