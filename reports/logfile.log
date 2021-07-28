@@ -1,0 +1,68 @@
+2021-07-27 21:41:51,433 :INFO : test_shop_flow :Samsung Galaxy Note 20
+2021-07-27 21:45:36,061 :INFO : test_shop_flow :The keywords use on the search wasSamsung Galaxy Note 20
+2021-07-27 21:48:46,606 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 21:48:46,650 :CRITICAL : test_shop_flow :The results for 1-16 of 114 results for "Samsung Galaxy Note 20" are displayed
+2021-07-27 21:53:30,530 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 21:53:30,582 :CRITICAL : test_shop_flow :1-16 of 114 results for "Samsung Galaxy Note 20" are displayed
+2021-07-27 21:56:53,374 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 21:56:53,419 :CRITICAL : test_shop_flow :1-16 of 114 results for "Samsung Galaxy Note 20" are displayed
+2021-07-27 22:00:13,746 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:00:13,777 :CRITICAL : test_shop_flow :1-16 of 114 results for "Samsung Galaxy Note 20" are displayed
+2021-07-27 22:01:47,751 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:01:47,781 :CRITICAL : test_shop_flow :1-16 of 116 results for "Samsung Galaxy Note 20" are displayed
+2021-07-27 22:01:53,218 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:04:34,023 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:04:34,082 :CRITICAL : test_shop_flow :1-16 of 116 results for "Samsung Galaxy Note 20" are displayed
+2021-07-27 22:04:39,844 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:04:39,844 :INFO : test_shop_flow :Prices match
+2021-07-27 22:04:41,492 :INFO : test_shop_flow :The item was removed for the cart successfully
+2021-07-27 22:05:21,117 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:05:21,160 :WARNING : test_shop_flow :1-16 of 114 results for "Samsung Galaxy Note 20" are displayed
+2021-07-27 22:05:26,379 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:05:26,379 :INFO : test_shop_flow :Prices match
+2021-07-27 22:05:27,023 :INFO : test_shop_flow :The item was removed for the cart successfully
+2021-07-27 22:08:23,091 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:08:23,117 :WARNING : test_shop_flow :1-16 of 116 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:08:28,224 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:08:28,224 :INFO : test_shop_flow :Prices match
+2021-07-27 22:08:28,870 :INFO : test_shop_flow :The item was removed for the cart successfully
+2021-07-27 22:09:06,998 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:09:07,035 :WARNING : test_shop_flow :1-16 of 116 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:09:15,802 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:09:15,802 :INFO : test_shop_flow :Prices match
+2021-07-27 22:09:16,446 :INFO : test_shop_flow :The item was removed for the cart successfully
+2021-07-27 22:15:18,525 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:15:18,560 :WARNING : test_shop_flow :1-16 of 116 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:15:23,582 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:15:23,582 :INFO : test_shop_flow :Prices match
+2021-07-27 22:18:29,575 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:18:29,604 :WARNING : test_shop_flow :1-16 of 114 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:18:34,436 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:18:34,436 :INFO : test_shop_flow :Prices match
+2021-07-27 22:27:16,473 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:27:16,520 :WARNING : test_shop_flow :1-16 of 114 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:27:21,361 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:27:21,361 :INFO : test_shop_flow :Prices match
+2021-07-27 22:28:54,161 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:28:54,208 :WARNING : test_shop_flow :1-16 of 114 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:28:58,925 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:28:58,925 :INFO : test_shop_flow :Prices match
+2021-07-27 22:28:59,542 :INFO : test_shop_flow :The item was removed for the cart successfully
+2021-07-27 22:29:59,385 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:29:59,436 :WARNING : test_shop_flow :1-16 of 116 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:30:04,180 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:30:04,180 :INFO : test_shop_flow :Prices match
+2021-07-27 22:30:04,821 :INFO : test_shop_flow :The item was removed for the cart successfully
+2021-07-27 22:41:05,623 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:41:05,650 :WARNING : test_shop_flow :1-16 of 114 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:41:10,655 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:41:10,655 :INFO : test_shop_flow :Prices match
+2021-07-27 22:41:11,288 :INFO : test_shop_flow :The item was removed for the cart successfully
+2021-07-27 22:42:13,085 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:42:13,132 :WARNING : test_shop_flow :1-16 of 116 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:42:18,414 :WARNING : test_shop_flow :Prices on the pages were [599.99, 599.99, 599.99]
+2021-07-27 22:42:18,414 :INFO : test_shop_flow :Prices match
+2021-07-27 22:43:54,992 :INFO : test_shop_flow :The keywords use on the search was Samsung Galaxy Note 20
+2021-07-27 22:43:55,044 :WARNING : test_shop_flow :1-16 of 116 results for "Samsung Galaxy Note 20" are displayed on the page
+2021-07-27 22:43:59,758 :WARNING : test_shop_flow :Prices on the pages were [19.99, 19.99, 19.99]
+2021-07-27 22:43:59,758 :INFO : test_shop_flow :Prices match
