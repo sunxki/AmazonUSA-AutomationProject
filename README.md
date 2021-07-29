@@ -34,7 +34,7 @@ This directory will be used to store the HTML repors once the pytest execution h
 ### **testData**
 It contains classes where the data use on each page is stored
 ### **test**
-- **testCases:** It contain classes for the test cases required, it will enhirent all the methods from pageObject classes where the object are created to performed the steps, assertion are included on this classes, as well   as data loader to bring data from testData classes.
+- **testCases:** It contain classes for the test cases required, it will inherent all the methods from pageObject classes where the object are created to performed the steps, assertion are included on this classes, as well   as data loader to bring data from testData classes.
 
        File:test_first_test_case    	Go to Amazon.com
 						Search for Samsung Galaxy Note 20
