@@ -2,12 +2,12 @@
 This is the Automation suite for Amazon.com 
 
 ## How to execute it (On Windows) 
-  1. Clone the directory in to your computer 
+  1. Clone the directory into your computer 
   2. Open CMD on windows
-  3. cd to the directory where the repository was cloned 
+  3. cd to the directory where the repository was cloned (Make sure to navigate to the root folder) 
   4. input "py.test" command on the console
   5. The Webdriver will start executing the script 
-  6. Once it has finished, navigate to /reports on your cloned directory and locate the new report for this run generated 
+  6. Once it has finished, navigate to /reports on your cloned directory and locate the new report for this run that was generated with all the details. 
 
 Recording for the execution can be found on [here](https://www.screencast.com/t/jH26dYBD) 
 
