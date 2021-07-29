@@ -12,8 +12,11 @@ This is the Automation suite for Amazon.com
 Recording for the execution can be found on [here](https://www.screencast.com/t/jH26dYBD) 
 
 ## Other CMD customized commands 
+### Selecting browser to execute scripts 
 1. py.test -browser_name (default = **chrome**,   "firefox" available to run the script in geckodriver)
-2. py.test -environment_name (default = **prod**,   "stg" available to get a different URL for another enviroment (Not provided))
+
+### Changing enviroment to execute scripts 
+3. py.test -environment_name (default = **prod**,   "stg" available to get a different URL for another enviroment (Not provided))
 
 ## This automation suite was created  using the following tools:
 
