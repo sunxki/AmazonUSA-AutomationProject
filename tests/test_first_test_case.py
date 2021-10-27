@@ -19,7 +19,7 @@ class TestCaseOne(BaseClass):
         assert resultpage.verify_prices_match(), "Prices don't match"
         log.info("Prices match")
         shoppingcartpage.delete_item()
-        assert shoppingcartpage.verify_empty_cart_text() , "The message should contain Empty"
+        assert shoppingcartpage.verify_empty_cart_text(), "The message should contain Empty"
         log.info("The item was removed for the cart successfully")
 
     @pytest.fixture(params=HomePageData.expected_data)
