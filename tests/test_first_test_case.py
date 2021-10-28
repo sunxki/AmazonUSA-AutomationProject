@@ -14,13 +14,13 @@ class TestCaseOne(BaseClass):
         log.warning(f'{resultpage.search_validation()} are displayed on the page')
         detailpage = resultpage.select_item_with_price()
         precartpage = detailpage.add_to_cart(resultpage.price_displayed_validator)
-        shoppingcartpage = precartpage.view_cart()
-        log.warning(f'Prices on the pages were {resultpage.price_displayed_validator}')
-        assert resultpage.verify_prices_match(), "Prices don't match"
-        log.info("Prices match")
-        shoppingcartpage.delete_item()
-        assert shoppingcartpage.verify_empty_cart_text(), "The message should contain Empty"
-        log.info("The item was removed for the cart successfully")
+        #shoppingcartpage = precartpage.view_cart()
+        #log.warning(f'Prices on the pages were {resultpage.price_displayed_validator}')
+        #assert resultpage.verify_prices_match(), "Prices don't match"
+        # log.info("Prices match")
+        # shoppingcartpage.delete_item()
+        # assert shoppingcartpage.verify_empty_cart_text(), "The message should contain Empty"
+        # log.info("The item was removed for the cart successfully")
 
     @pytest.fixture(params=HomePageData.expected_data)
     def get_data(self,request):

@@ -10,7 +10,7 @@ class ResultPage(BaseClass):
         self.price_displayed_validator = []
 
     result_info_text = (By.CSS_SELECTOR, "div[class='a-section a-spacing-small a-spacing-top-small']")
-    products_displayed = (By.CSS_SELECTOR, "div[class ='a-section a-spacing-medium']")
+    products_displayed = (By.XPATH, "//div[@class='a-section a-spacing-none' and not(div[1]/div/span) and div[3]/descendant::span[@class='a-offscreen']]/descendant::span[@class='a-size-medium a-color-base a-text-normal']")
 
     item_link = (By.TAG_NAME, "a")
     item_price_tag = (By.CSS_SELECTOR, "span.a-price")
@@ -23,21 +23,19 @@ class ResultPage(BaseClass):
         return self.driver.find_element(*ResultPage.result_info_text).text
 
     def find_products_displayed(self):
-        """Return all the web elements where the products for the search are displayed """
+        """Return all the web elements where the products for the search are displayed that contains prices and
+        aren't promoted """
         self.verify_elements_present(ResultPage.products_displayed)
         return self.driver.find_elements(*ResultPage.products_displayed)
 
     def select_item_with_price(self):
-        """Select the first product when this one has price displayed if not it return the next one
-            then it takes the price from it
+        """Select the first product from an array of web elements
             and create the instance of the next object from detailpage Class
         """
         products = self.find_products_displayed()
-        for product in products:
-            if product.find_element(*ResultPage.item_price_tag).is_displayed:
-                self.get_price_formatted(product)
-                product.find_element(*ResultPage.item_link).click()
-                break
+        for index,product in enumerate(products,1):
+            if index == 1:
+                product.click()
         detailpage = DetailPage(self.driver)
         return detailpage
 

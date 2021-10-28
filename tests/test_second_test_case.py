@@ -3,6 +3,7 @@ from pageObjects.HomePage import HomePage
 from testData.CreateAccountPageData import CreateAccountData
 from utilities.BaseClass import BaseClass
 
+@pytest.mark.skip
 class TestCaseTwo(BaseClass):
     def test_support_flow(self, get_api, get_data):
         log = self.getLogger()
